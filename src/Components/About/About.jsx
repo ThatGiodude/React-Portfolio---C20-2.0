@@ -13,10 +13,18 @@ export const About = () => {
                 />
                 <ul className={styles.aboutItems}>
                     <li className={styles.aboutItem}>
-                        
+                        <img src={getImageUrl("about/cursonIcon.png")} alt="Cursor Icon" />
+                        <div className={styles.aboutItemText}>
+                            <h3>Front-End Developer</h3>
+                            <p>
+                                My name is Giovanni Strangio. I am currently a student in a Full Stack Web-Development course through Columbia University.
+                                I have entry level experience in both Front End and Back End web design and have familiarity in utilizing API's and devoping
+                                fast and responsive sites with decent UI.
+                            </p>
+                        </div>
                     </li>
                 </ul>
             </div>
         </section>
-    )
-}
+    );
+};
